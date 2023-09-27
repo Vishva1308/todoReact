@@ -11,7 +11,6 @@ import { TodoContext } from "./context/TodoContext";
 function App() {
   const [ todos, setTodos ] = useContext( TodoContext );
   const [darkModeStatus, setDarkModeStatus] = useState(false);
-  // const [todos, setTodos] = useState([]);
 console.log("test1",todos)
 
   useEffect(() => {

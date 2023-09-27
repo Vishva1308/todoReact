@@ -2,7 +2,7 @@ import { useContext, useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import { TodoContext } from '../../context/TodoContext';
 
-const Header = ({ darkModeStatus, setDarkModeStatus,/*  todos, setTodos  */}) => {
+const Header = ({ darkModeStatus, setDarkModeStatus,}) => {
   const [ todos, setTodos ] = useContext( TodoContext );
     const [todo, setTodo] = useState("");
     const handleSubmit = (e) => {
